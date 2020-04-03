@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>主页</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-family: 'Pacifico', cursive;
+        }
+        #nav{
+            background-color: #81989D;
+            overflow:auto;
+           
+        }
+        .continer{
+            width:70%;
+            margin: 0 auto;
+        }
+        .left{
+            float:left;
+            font-size: 30px;
+            color:white;
+        }
+        .right{
+            float:right;
+            overflow:auto;
+        }
+        .right>div{
+            float: left;
+            font-size:20px;
+            padding:10px 16px;
+            text-transform: capitalize;
+            color:white;
+            border-radius: 5px;
+        }
+        .right>div:hover{
+            background-color: rgb(50, 233, 233);
+            color:rgb(216, 164, 216);
+            transition: width 2s, height 2s,background-color 2s, transform 2s;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <div class="continer">
+                <div class="left">Hotel</div>
+                <div class="right">
+                    <div class="home">home</div>
+                    <div class="about">about</div>
+                    <div class="contact">contact</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+</body>
+</html>
