@@ -11,3 +11,9 @@ git add -A && git commit -m "..."
 ```sh
 git push 
 ```
+### Others
+```sh
+git checkout master
+git checkout <hash>
+git checkout -b <branch_name>
+```
