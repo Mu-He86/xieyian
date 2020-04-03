@@ -17,3 +17,6 @@ git checkout master
 git checkout <hash>
 git checkout -b <branch_name>
 ```
+
+## Reference
+- [Git命令清单](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
