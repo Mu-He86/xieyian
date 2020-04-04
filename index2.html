@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor&display=swap" rel="stylesheet">
+    <title>主页</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Kdam Thmor', cursive;
+        }
+
+        #top {
+            background-color: rgb(214, 172, 248);
+            text-transform: capitalize;
+        }
+
+        /* 70%居中 */
+        .mid {
+            width: 70%;
+            overflow: auto;
+            margin: 0 auto;
+        }
+
+        /* 水平布局 */
+        .left {
+            font-size: 30px;
+            padding-top: 6px;
+            float: left;
+            font-weight: 900;
+            color:rgb(90, 76, 59);
+        }
+        .right {
+            padding:15px;
+            float: right;
+            overflow: auto;
+        }
+        .right > div{
+            float: right;
+            margin: 0px 10px;
+            transition: width 2s, height 2s,background-color 2s, transform 2s;
+        }
+
+        .right > div:hover{
+            background-color: rgb(118, 199, 202);
+            color:red;
+            transition: width 2s, height 2s,background-color 2s, transform 2s;
+        }
+/* 
+inline: 
+1: 同行显示； 
+2：没有高度和宽度，内容大小有内部元素来决定；
+3：只有左右边距 margin-left margin-right padding-left padding-right; 
+4: margin: 0 auto 对它无效；text-align: center; 
+block: 
+1：不同行显示 
+2：有高度和宽度，宽度默认为父元素的100%，高度由内部元素大小决定
+ 
+
+
+*/
+
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div class="mid">
+            <div class="left">hotel</div>
+            <div class="right">
+                <div class="home">home</div>
+                <div class="about">about</div>
+                <div class="contact">contact</div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
